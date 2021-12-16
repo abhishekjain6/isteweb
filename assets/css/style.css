@@ -1540,6 +1540,11 @@ section {
   border:solid 1px;
   transition: all 200ms linear;
 }
+@media screen and (max-width: 600px) {
+  div.new {
+    display: none;
+  }
+}
 
 @keyframes status-trans{
 
@@ -1551,7 +1556,7 @@ section {
     100%
     {
         opacity: 0;
-        pointer-events: none;
+        pointer-  : none;
     } 
 }
 
